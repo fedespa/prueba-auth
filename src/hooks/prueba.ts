@@ -1,6 +1,6 @@
 export async function prueba(){
     try {
-        const url = `${process.env.NEXT_PUBLIC_API_URL}/auth/prueba`
+        const url = `${process.env.NEXT_PUBLIC_API_URL}/auth/`
         const res  = await fetch(url, {
             method: "GET",
             headers: {
@@ -12,7 +12,7 @@ export async function prueba(){
 
         const data = await res.json();
         console.log(data)
-        
+
         return data
     } catch (error) {
         console.log(error)

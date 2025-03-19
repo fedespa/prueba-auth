@@ -7,6 +7,8 @@ export const metadata = {
 };
 
 export default function LoginPage() {
+  console.log(process.env.NEXT_PUBLIC_API_URL);
+
   return (
     <div>
       <LoginForm />

@@ -17,7 +17,7 @@ function LoginForm() {
   };
 
   const handleOnClick = async () => {
-    const data = await prueba()
+    await prueba()
   }
 
   return (
